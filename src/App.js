@@ -37,7 +37,7 @@ function App() {
     <div className="App">
       <textarea className='originalText' onBlur={(e) => blurEffect(e)}></textarea>
       <br></br>
-      <button onClick={breakUp}>Break Up Into Tweets</button>
+      <button onClick={breakUp}>Break Up Your Novel Into Tweets</button>
       <br></br>
       <button onClick={clear}>Clear</button>
       <p>{ogTextLength}</p>
